@@ -1,0 +1,39 @@
+#blue{
+    color : blue;
+}
+body{
+    background-color: lightsteelblue;
+}
+
+.clear {
+     clear: both; 
+}
+
+h1 {
+  text-align: center;     /* 글자 가로 가운데 정렬 */
+  margin: 48px 0 24px;    /* 위 48px, 왼쪽 오른쪽 0, 아래 24px 여백 */
+}
+
+.profile li::marker { /* :: marker 숫자만 볼드 */
+  font-weight: 800;   
+}
+.left { 
+    float: left; width: 400px; margin-right: 10px;  /* 왼쪽으로 올리기 */
+}
+
+.coral {
+    background: lightcoral;
+}
+
+.violet {
+    background: violet;
+}
+
+.yellow {
+    background: lightgoldenrodyellow;
+}
+
+.green {
+    background: lightseagreen;
+}
+
